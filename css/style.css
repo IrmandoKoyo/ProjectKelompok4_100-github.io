@@ -1,0 +1,107 @@
+body {
+  background: #f5f5f5;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  color: #333; }
+
+.wrapper {
+  margin-top:40px;
+  max-width: 1200px;
+  padding: 0 20px;
+  display: flex; }
+
+.header {
+  background: #fff; }
+  .header .logo {
+    flex-basis: 20%;
+    padding: 12px 0; }
+    .header .logo h1 {
+      margin: 0;
+      font-size: 1.5em; }
+      .header .logo h1 a {
+        text-decoration: none;
+        color: #333; }
+      .header .logo h1 span {
+        font-weight: 300; }
+  .header .menu {
+    flex-basis: 80%; }
+    .header .menu ul {
+      float: right;
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .header .menu ul li {
+        float: left; }
+        .header .menu ul li a {
+          display: block;
+          padding: 20px;
+          font-size: 14px;
+          text-decoration: none;
+          color: #333;
+          transition: 0.5ms;
+          border-bottom: 3px solid white; }
+          .header .menu ul li a:hover {
+            background: red;
+            color: #fff;
+            border-color: #950606; }
+
+.hero {
+  background: #fff;
+  padding: 5% 0 3%; }
+  .hero-text {
+    flex-basis: 50%; }
+    .hero-text h2 {
+      font-size: 2.5em; }
+    .hero-text p {
+      line-height: 25px;
+      font-size: 14px;
+      font-weight: 300; }
+    .hero-text a {
+      display: inline-block;
+      background: red;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px 40px;
+      border-radius: 10px;
+      font-size: 14px;
+      border-bottom: 3px solid #b30505;
+      margin-top: 20px; }
+    
+
+  .hero-image {
+    flex-basis: 50%; }
+    .hero-image img {
+      width: 100%; }
+      
+   
+
+.catalog {
+  padding: 5% 0; }
+  .catalog-item {
+    background: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -1px 1px 16px 3px #e2e2e2;
+    flex-basis: 20%; }
+    .catalog-item .desc {
+      padding: 20px; }
+      .catalog-item .desc .title h5 {
+        margin: 5px 0 10px;
+        color: #555; }
+      .catalog-item .desc .price {
+        font-size: 13px;
+        font-weight: 600;
+        color: #ec9633; }
+    .catalog-item img {
+      height: 176.5px; }
+
+.footer {
+  background: #333;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 300; }
+
+
+/*(_(_(_/)))*/

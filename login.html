@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Jus buah Super Hemat</title>
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="hamburger-btn material-symbols-rounded">menu</span>
+            <a href="#" class="logo">
+                <img src="images/logo.png " alt="logo">
+                <h2>JuiceQuattro</h2>
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="juskami.html">Jus Kami</a></li>
+                <li><a href="testimonial.html">Testimoni</a></li>
+                <li><a href="hubungikami.html">Hubungi Kami</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tim.html">Tim Kami</a>
+                </li>
+            </ul>
+            <button class="login-btn">MASUK</button>
+        </nav>
+    </header>
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Selamat datang kembali</h2>
+                <p>Silakan masuk menggunakan informasi pribadi Anda untuk tetap terhubung dengan kami.</p>
+            </div>
+            <div class="form-content">
+                <h2>MASUK</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Kata sandi</label>
+                    </div>
+                    <a href="#" class="forgot-pass-link">Lupa Kata Sandi?</a>
+                    <button type="submit">Masuk</button>
+                </form>
+                <div class="bottom-link">
+                    Tidak memiliki akun?
+                    <a href="#" id="signup-link">Daftar</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Buat Akun</h2>
+                <p>Untuk menjadi bagian dari komunitas kami, silakan mendaftar menggunakan informasi pribadi Anda.</p>
+            </div>
+            <div class="form-content">
+                <h2>DAFTAR</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Masukan Email Anda</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Buat Kata sandi</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            Saya setuju
+                            <a href="#" class="option">Syarat & Ketentuan</a>
+                        </label>
+                    </div>
+                    <button type="submit">Daftar</button>
+                </form>
+                <div class="bottom-link">
+                    Sudah mempunyai Akun? 
+                    <a href="#" id="login-link">Masuk</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
